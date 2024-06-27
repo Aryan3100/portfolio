@@ -32,7 +32,6 @@ const Header = () => {
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-             
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
@@ -41,9 +40,7 @@ const Header = () => {
         </Navbar.Collapse>
         <Button variant='secondary' onClick={showCanva} >Contact ME </Button>
       </Container>
-     
     </Navbar>
-    
     <Offcanvas show={sho} placement='end' onHide={hideCanva} >
        <Offcanvas.Header closeButton>
         <Offcanvas.Title>Contact Detail</Offcanvas.Title>
@@ -55,8 +52,6 @@ const Header = () => {
     </Offcanvas>
 
     </div>
-    
-
   )
 }
 
